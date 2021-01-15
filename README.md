@@ -52,7 +52,7 @@
 
 ## CloudFlare Workers反代代码
 
-```js
+```
 const SingleDay = 'appname.herokuapp.com'
 const DoubleDay = 'appname.herokuapp.com'
 addEventListener(
