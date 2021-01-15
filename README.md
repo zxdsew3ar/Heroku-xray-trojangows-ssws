@@ -16,7 +16,7 @@
   * 默认协议密码为$UUID，WS路径为$UUID-[vmess|vless|trojan|ss|socks]格式
    
 
-****Xray****
+### Xray
 
 * 代理协议：vless 或 vmess
 * 地址：appname.herokuapp.com
