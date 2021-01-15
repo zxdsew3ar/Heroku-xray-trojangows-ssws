@@ -16,18 +16,18 @@
   * 默认协议密码为$UUID，WS路径为$UUID-[vmess|vless|trojan|ss|socks]格式
    
 ### 客户端（V2rayN为例）
-# 1：Xray(仅WS模式)
+# 1:Xray(仅WS模式)
 
 * 代理协议(CF Workers反代)：vless+ws+tls 或 vmess+ws+tls
 * 地址：自选ip（如：icook.tw）
 * 端口：443
-* 默认UUID：8f91b6a0-e8ee-11ea-adc1-0242ac120002(务必创建时自定义重设)
+* 默认UUID：8f91b6a0-e8ee-11ea-adc1-0242ac120002   (务必创建时自定义UUID码)
 * 加密：none
 * 传输协议：ws
 * 伪装类型：none
 * 伪装域名：****.workers.dev(CF Workers反代地址)
-* path路径：/UUID-vless 或 /UUID-vmess (注意：有斜杠/)
-* vmess额外id：0
+* path路径：/自定义UUID码-vless 或 /自定义UUID码-vmess    (注意：前有斜杠/)
+* vmess额外id（alterid）：0
 * 底层传输安全：tls
 * 跳过证书验证：false
 ```
