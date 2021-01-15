@@ -56,14 +56,12 @@ const SingleDay = '应用程序名.herokuapp.com'
 const DoubleDay = '应用程序名.herokuapp.com'
 addEventListener(
     "fetch",event => {
-    
         let nd = new Date();
         if (nd.getDate()%2) {
             host = SingleDay
         } else {
             host = DoubleDay
-        }
-        
+        }        
         let url=new URL(event.request.url);
         url.hostname=host;
         let request=new Request(url,event.request);
@@ -72,7 +70,4 @@ addEventListener(
         )
     }
 )
-```
-</details>
-  
-> [更多来自热心网友PR的使用教程](/tutorial)
+
