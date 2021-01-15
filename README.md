@@ -16,7 +16,7 @@
   * 默认协议密码为$UUID，WS路径为$UUID-[vmess|vless|trojan|ss|socks]格式
    
 ### 客户端（V2rayN为例）
-# 1:Xray(仅WS模式)
+# 1：xray
 
 * 代理协议(CF Workers反代)：vless+ws+tls 或 vmess+ws+tls
 * 地址：自选ip（如：icook.tw）
