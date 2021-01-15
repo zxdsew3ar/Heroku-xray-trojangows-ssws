@@ -53,8 +53,8 @@
 ## CloudFlare Workers反代代码
 
 ```
-const SingleDay = 'appname.herokuapp.com'
-const DoubleDay = 'appname.herokuapp.com'
+const SingleDay = '应用程序名.herokuapp.com'
+const DoubleDay = '应用程序名.herokuapp.com'
 addEventListener(
     "fetch",event => {
     
