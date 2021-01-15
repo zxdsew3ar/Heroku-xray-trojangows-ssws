@@ -1,9 +1,9 @@
 ## 原作者项目地址：https://github.com/mixool/xrayku
 
-### 以下内容根据原作者内容进行相应白话修改，并直接以自选IP的配置来表示，方便大家理解！
+## 提醒： 滥用可能导致账户被BAN！！！ 
 
-## > 提醒： 滥用可能导致账户被BAN！！！   
-  
+### 以下内容根据原作者内容进行相应白话修改，并直接以自选IP的配置来表示，方便大家理解！
+    
 * 使用[xray](https://github.com/XTLS/Xray-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议  
 * 支持tor网络，且可通过自定义网络配置文件启动xray和caddy来按需配置各种功能  
 * 支持存储自定义文件,目录及账号密码均为AUUID,客户端务必使用TLS连接  
