@@ -16,12 +16,13 @@
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上应用程序名、选择节点（美国或者欧洲）、自定义UUID码，其他建议保持默认，点击下面deploy，几秒后搞定！    
 
 
-## 各协议对应客户端相关参数
+## vmess vless trojan-go shadowsocks对应客户端相关参数（仅支持WS传输协议）
 
 ## 1：Xray
 
-* 代理协议(CF Workers反代)：vless+ws+tls 或 vmess+ws+tls
-* 地址：自选ip（如：icook.tw）
+### 代理协议(CF Workers反代)：vless+ws+tls 或 vmess+ws+tls
+
+* 服务器地址：自选ip（如：icook.tw）
 * 端口：443
 * 默认UUID：8f91b6a0-e8ee-11ea-adc1-0242ac120002   (务必创建时自定义UUID码)
 * 加密：none
@@ -35,7 +36,7 @@
 
 ## 2：trojan-go+ws
 
-* 地址：自选ip（如：icook.tw）
+* 服务器地址：自选ip（如：icook.tw）
 * 端口：443
 * 密码：8f91b6a0-e8ee-11ea-adc1-0242ac120002   (务必创建时自定义UUID码) 
 * path路径：/自定义UUID码-trojan  (注意：前有斜杠/)
