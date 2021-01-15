@@ -1,6 +1,6 @@
 ### 原作者项目地址：https://github.com/mixool/xrayku
 
-## 提醒： 滥用可能导致账户被BAN！！！ 
+## 提醒： 滥用可能导致账户被删除！！！ 
 
 ### 以下内容根据原作者内容进行相应白话式修改，方便大家理解！
 
@@ -12,11 +12,11 @@
   
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/mixool/xrayku)  
   
-# 服务端创建操作流程
+## 服务端创建操作流程
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上应用程序名、选择节点（美国或者欧洲）、自定义UUID码，其他建议保持默认，点击下面deploy，几秒后搞定！    
 
 
-# 各协议对应客户端相关参数
+## 各协议对应客户端相关参数
 
 ## 1：Xray
 
