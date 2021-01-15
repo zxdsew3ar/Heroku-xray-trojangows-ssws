@@ -1,4 +1,4 @@
-# 原作者项目地址：https://github.com/mixool/xrayku
+## 原作者项目地址：https://github.com/mixool/xrayku
 
 > 提醒： 滥用可能导致账户被BAN！！！   
   
@@ -10,7 +10,8 @@
   
 # 服务端
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上应用程序名字、选择节点（美国或者欧洲）、自定义UUID码，点击下面deploy，几秒后搞定！    
-   
+
+
 # 客户端
 
 # 1：xray
@@ -34,7 +35,8 @@
 * 端口：443
 * 密码：8f91b6a0-e8ee-11ea-adc1-0242ac120002   (务必创建时自定义UUID码) 
 * path路径：/自定义UUID码-trojan  (注意：前有斜杠/)
-* 伪装域名host：****.workers.dev(CF Workers反代地址)
+* SNI地址：****.workers.dev(CF Workers反代地址)
+* 伪装域名host地址：****.workers.dev(CF Workers反代地址)
 
 
 ```
