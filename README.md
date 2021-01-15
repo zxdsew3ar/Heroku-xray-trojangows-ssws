@@ -42,7 +42,7 @@
 * SNI地址：****.workers.dev(CF Workers反代地址)
 * 伪装host地址：****.workers.dev(CF Workers反代地址)
 
-## 2：shadowsocks+ws+tls
+## 3：shadowsocks+ws+tls
 
 * 服务器地址: 应用程序名.herokuapp.com
 * 端口: 443
