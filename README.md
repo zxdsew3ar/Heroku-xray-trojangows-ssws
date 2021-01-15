@@ -4,7 +4,7 @@
 
 ### 以下内容根据原作者内容进行相应白话修改，并直接以自选IP的配置来表示，方便大家理解！
 
-### 详细视频教程YouTube：
+### 详细视频教程YouTube：待发布
     
 * 使用[xray](https://github.com/XTLS/Xray-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议  
 * 支持tor网络，且可通过自定义网络配置文件启动xray和caddy来按需配置各种功能  
