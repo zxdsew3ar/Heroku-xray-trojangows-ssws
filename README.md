@@ -1,3 +1,5 @@
+原作者项目地址：https://github.com/mixool/xrayku
+
 > 提醒： 滥用可能导致账户被BAN！！！   
   
 * 使用[xray](https://github.com/XTLS/Xray-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议  
@@ -64,7 +66,7 @@
 * 客户端下载：https://github.com/shadowsocks/shadowsocks-windows/releases/
 * 服务器地址: appname.herokuapp.com
 * 端口: 443
-* 密码：password
+* 密码：8f91b6a0-e8ee-11ea-adc1-0242ac120002
 * 加密：chacha20-ietf-poly1305
 * 插件程序：xray-plugin_windows_amd64.exe  //需将插件https://github.com/shadowsocks/xray-plugin/releases下载解压后放至shadowsocks同目录
 * 插件选项: tls;host=appname.herokuapp.com;path=/8f91b6a0-e8ee-11ea-adc1-0242ac120002-ss
