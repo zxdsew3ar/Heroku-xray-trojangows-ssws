@@ -9,13 +9,10 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/mixool/xrayku)  
   
 ### 服务端
-点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字、选择节点、按需修改部分参数和AUUID后点击下面deploy创建app即可开始部署  
-如出现错误，可以多尝试几次，待部署完成后页面底部会显示Your app was successfully deployed  
-  * 点击Manage App可在Settings下的Config Vars项**查看和重新设置参数**  
-  * 点击Open app跳转[欢迎页面](/etc/CADDYIndexPage.md)域名即为heroku分配域名，格式为`appname.herokuapp.com`，用于客户端  
-  * 默认协议密码为$UUID，WS路径为$UUID-[vmess|vless|trojan|ss|socks]格式
+点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上应用程序名字、选择节点（美国或者欧洲）、自定义UUID码，点击下面deploy，几秒后搞定！    
    
-### 客户端（V2rayN为例）
+### 客户端
+
 # 1：xray
 
 * 代理协议(CF Workers反代)：vless+ws+tls 或 vmess+ws+tls
@@ -25,34 +22,21 @@
 * 加密：none
 * 传输协议：ws
 * 伪装类型：none
-* 伪装域名：****.workers.dev(CF Workers反代地址)
+* 伪装域名host：****.workers.dev(CF Workers反代地址)
 * path路径：/自定义UUID码-vless 或 /自定义UUID码-vmess    (注意：前有斜杠/)
 * vmess额外id（alterid）：0
 * 底层传输安全：tls
 * 跳过证书验证：false
-```
-</details>
-  
-<details>
-<summary>trojan-go</summary>
 
-```bash
-* 客户端下载: https://github.com/p4gefau1t/trojan-go/releases
-{
-    "run_type": "client",
-    "local_addr": "127.0.0.1",
-    "local_port": 1080,
-    "remote_addr": "appname.herokuapp.com",
-    "remote_port": 443,
-    "password": [
-        "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
-    ],
-    "websocket": {
-        "enabled": true,
-        "path": "/8f91b6a0-e8ee-11ea-adc1-0242ac120002-trojan",
-        "host": "appname.herokuapp.com"
-    }
-}
+# 2：trojan-go+ws
+
+* 地址：自选ip（如：icook.tw）
+* 端口：443
+* 密码：8f91b6a0-e8ee-11ea-adc1-0242ac120002   (务必创建时自定义UUID码) 
+* path路径：/自定义UUID码-trojan  (注意：前有斜杠/)
+* 伪装域名host：****.workers.dev(CF Workers反代地址)
+
+
 ```
 </details>
   
