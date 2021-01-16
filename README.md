@@ -2,13 +2,11 @@
 
 ## 提醒： 滥用可能导致账户被删除！！！ 
 
-### 以下内容根据原作者内容进行相应白话式修改，方便大家理解！
+### 以下内容根据原作者内容进行相应白话式修改，方便初学者小白们大家理解！
 
 ### 详细视频教程YouTube：待发布…………
    
-* 本Heroku脚本为多协议共存脚本，使用[xray](https://github.com/XTLS/Xray-core)+caddy，同时部署通过ws传输模式的vmess vless trojan-go shadowsocks socks等协议  
-* 支持tor网络，且可通过自定义网络配置文件启动xray和caddy来按需配置各种功能  
-* 支持存储自定义文件,目录及账号密码均为AUUID,客户端务必使用TLS连接  
+* 本Heroku脚本为多协议共存脚本，使用[xray](https://github.com/XTLS/Xray-core)+caddy，同时部署通过ws传输模式的vmess vless trojan-go shadowsocks socks等协议，默认配置伪装网站  
 
 ## 服务端创建操作流程
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/mixool/xrayku)  
