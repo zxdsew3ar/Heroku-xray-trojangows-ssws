@@ -39,7 +39,7 @@
 * 密码：8f91b6a0-e8ee-11ea-adc1-0242ac120002   (务必创建时自定义UUID码) 
 * path路径：/自定义UUID码-trojan  (注意：前有斜杠/)
 * SNI地址：****.workers.dev(CF Workers反代地址)
-* 伪装host地址：****.workers.dev(CF Workers反代地址)
+* 伪装host：****.workers.dev(CF Workers反代地址)
 
 ## 3：shadowsocks+ws+tls
 
