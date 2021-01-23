@@ -12,7 +12,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/ygtsj/Heroku-xray-trojangows-ssws)  
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上应用程序名、选择节点（美国或者欧洲）、自定义UUID码，其他建议保持默认，点击下面deploy，几秒后搞定！    
 
-## vmess vless trojan-go shadowsocks对应客户端参数的参考如下
+## vmess vless trojan-go shadowsocks对应客户端参数的参考如下,带()里的内容仅为提示
 
 ## 1：Xray
 
@@ -49,7 +49,7 @@
 * 插件选项: tls;host=应用程序名.herokuapp.com;path=/自定义UUID码-ss
 
 
-# CloudFlare Workers反代代码
+# CloudFlare Workers反代代码（支持VLESS\VMESS\Trojan-Go的WS模式中应用）
 
 ```
 const SingleDay = '应用程序名.herokuapp.com'
