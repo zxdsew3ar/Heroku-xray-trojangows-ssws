@@ -1,5 +1,3 @@
-### 原作者项目地址：https://github.com/mixool/xrayku
-
 ## 提醒： 滥用可能导致账户被删除！！！ 
 
 ### 以下内容是根据原作者项目说明进行相应修改，方便初学者小白们理解！
@@ -73,3 +71,4 @@ addEventListener(
     }
 )
 ```
+### 原作者项目地址：https://github.com/mixool/xrayku
