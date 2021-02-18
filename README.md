@@ -4,7 +4,7 @@
 
 ### 详细视频教程YouTube：https://youtu.be/dE730hVgmUs
    
-* 作者的Heroku脚本为多协议共存脚本，该项目使用[xray](https://github.com/XTLS/Xray-core)+caddy，同时部署通过ws传输模式的vmess vless trojan-go shadowsocks socks等协议，默认已配置好伪装网站。  
+* 作者的Heroku脚本为多协议共存脚本，该项目使用[xray](https://github.com/XTLS/Xray-core)+caddy，同时部署通过ws传输模式的vmess vless trojan-go shadowsocks socks等协议。  
 
 ## 服务端创建操作流程
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/lkjuyhjt/Heroku-xray-trojangows-ssws)  
@@ -76,7 +76,7 @@ addEventListener(
 # CloudFlare Workers反代代码-02（支持VLESS\VMESS\Trojan-Go的WS模式）
 
 ```
-  addEventListener(
+addEventListener(
 "fetch",event => {
 let url=new URL(event.request.url);
 url.hostname="应用程序名.herokuapp.com";
