@@ -47,7 +47,7 @@
 * 插件选项: tls;host=应用程序名.herokuapp.com;path=/自定义UUID码-ss
 
 
-# CloudFlare Workers反代代码（支持VLESS\VMESS\Trojan-Go的WS模式）
+# CloudFlare Workers反代代码-01（支持VLESS\VMESS\Trojan-Go的WS模式）
 
 ```
 const SingleDay = '应用程序名.herokuapp.com'
@@ -69,6 +69,22 @@ addEventListener(
             fetch(request)
         )
     }
+)
+```
+
+
+# CloudFlare Workers反代代码-02（支持VLESS\VMESS\Trojan-Go的WS模式）
+
+```
+  addEventListener(
+"fetch",event => {
+let url=new URL(event.request.url);
+url.hostname="应用程序名.herokuapp.com";
+let request=new Request(url,event.request);
+event. respondWith(
+fetch(request)
+)
+}
 )
 ```
 ### 原作者项目地址：https://github.com/mixool/xrayku
